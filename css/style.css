@@ -1,0 +1,95 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik',Arial,Helvetica,sans-serif;
+    color: #191919;
+    
+}
+.container{
+    max-width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.c-header-top ul{
+    margin: 0;
+}
+.c-header-top h6,p,select{
+    color: #191919 !important;
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+}
+.c-header-top i{
+    color: #0068e1;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.navbar-brand .img-fluid{
+    width: 20.5rem;
+    height: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Resposive Device */
+
+
+@media (max-width:1199px){
+
+}
+
+@media (max-width:991px){
+
+}
+
+@media (max-width:767px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width:575px){
+
+}
