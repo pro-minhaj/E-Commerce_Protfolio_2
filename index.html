@@ -26,8 +26,8 @@
     <header>
         <div class="border-bottom">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between py-2  c-header-top">
-                    <div class="">
+                <div class="d-flex  align-items-center justify-content-lg-between justify-content-center py-2  c-header-top">
+                    <div class="d-md-none d-none d-lg-block">
                         <h6 class="m-0">Welcome to FleetCart store</h6>
                     </div>
                     <ul class="d-flex align-items-center">
@@ -62,18 +62,75 @@
             </div>
         </div>
         
-        <nav class="navbar navber-expand-lg">
             <div class="container">
-            <a href="#" class="navbar-brand">
-                <img class="img-fluid" src="./img/Logo.png" alt="Logo">
-            </a>
-            <div>
-                <input type="text" placeholder="Search for products">
-
+                <div class="pt-5 pb-4">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-2 col-lg-3 col-xl-2">
+                            <a class="d-flex align-items-center gap-3 img-fluid logo" href="#">
+                                <img class="" src="./img/Logo.png" alt="">
+                                <h1>FleetCart</h1>
+                            </a>
+                        </div>
+                        <div class="col-xl-8 col-lg-7 d-none d-lg-block">
+                            <div class="d-flex align-items-center border justify-content-between p-2 nav-search-area">
+                                <input class="ps-4 w-75" type="text" placeholder="Search for products">
+                                <div class="d-flex gap-5">
+                                    <select class="pe-5 ps-3">
+                                            <option selected>All Categories</option>
+                                            <option value="1">Men's Fashion</option>
+                                            <option value="2">Shirts</option>
+                                            <option value="3">Jackets</option>
+                                            <option value="4">Electronics</option>
+                                    </select>
+                                    <button class="btn btn-primary px-4 py-3"><i class="bi bi-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-2 col-lg-2">
+                            <div class="d-flex align-items-center gap-5 justify-content-end favorites">
+                                    <a class="" href="#">
+                                        <div class="d-none d-lg-block">
+                                            <div class="d-flex align-items-center  gap-4">
+                                                <div class="position-relative">
+                                                    <i class="bi bi-heart "></i>
+                                                    <span class="position-absolute translate-middle badge rounded-circle bg-danger">
+                                                    0
+                                                    </span>
+                                                </div>
+                                                <p class="d-none d-xxl-block">Favorites</p>
+                                            </div>
+                                        </div>
+                                        <a class="d-block d-lg-none" href="#">
+                                            <i class="bi bi-search"></i>
+                                        </a>
+                                    </a>
+                                    
+                                    <a class="d-flex align-items-center gap-4" href="#">
+                                        <div class="position-relative">
+                                            <i class="bi bi-cart-plus"></i>
+                                            <span class="position-absolute translate-middle badge rounded-circle bg-danger">
+                                            0
+                                            </span>
+                                        </div>
+                                        <p class="d-xxl-block d-none">$0.00</p>
+                                    </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block most-search pb-5">
+                    <ul class="d-flex align-items-center justify-content-center mb-0">
+                        <label class="text-primary">Most searched:</label>
+                        <li class="px-4 border-end"><a href="#">Watch</a></li>
+                        <li class="px-4 border-end"><a href="#">Apple</a></li>
+                        <li class="px-4 border-end"><a href="#">Bag</a></li>
+                        <li class="px-4 border-end"><a href="#">Ma</a></li>
+                        <li class="ps-4"><a href="#">Sa</a></li>
+                    </ul>
+                </div>
             </div>
-
-            </div>
-        </nav>
         
     </header>
 
