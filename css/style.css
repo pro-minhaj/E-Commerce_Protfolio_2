@@ -7,7 +7,7 @@ body{
     box-sizing: border-box;
     font-family: 'Rubik',Arial,Helvetica,sans-serif;
     color: #191919;
-    
+    font-size: 1.5rem;
 }
 .container{
     max-width: 100%;
@@ -27,7 +27,7 @@ li{
 .c-header-top ul{
     margin: 0;
 }
-.c-header-top h6,p,select{
+.c-header-top h6, .c-header-top p, .c-header-top select{
     color: #191919 !important;
     font-size: 1.5rem !important;
     font-weight: 400 !important;
@@ -60,18 +60,33 @@ li{
 }
 .favorites p{
     margin: 0;
+    color: #191919;
 }
+
 .most-search{
     font-size: 1.4rem;
 }
 .most-search a{
     color: #a6a6a6;
 }
-
-
-
-
-
+.nav-categories h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+.nav-categories i{
+    font-size: 1.6rem;
+}
+.nav-items a{
+    color: #191919;
+}
+.nav-items a:hover{
+    color:#0068e1;
+    font-weight: 500;
+}
+.nav-items p{
+    color: #ffb136;
+}
 
 
 
