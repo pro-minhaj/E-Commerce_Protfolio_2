@@ -227,6 +227,7 @@ li{
 .section-2 .discound-bg-2{
     background-image: url(../img/Apple-bg-1.jpg);
     background-size: cover;
+   
 }
 .section-2 .discound h4{
     font-size: 2rem;
@@ -260,12 +261,13 @@ li{
     .nav-area{
         padding-top:3rem ;
     }
-}
-
-@media (max-width:767px){
     html{
         font-size: 50%;
     }
+}
+
+@media (max-width:767px){
+    
 }
 
 @media (max-width:575px){
