@@ -58,8 +58,8 @@ li{
     color: #191919;
 }
 .favorites span{
-    top: 8px;
-    padding: 5px;
+    top: 0.8ren;
+    padding: 0.5rem;
 }
 .favorites p{
     margin: 0;
@@ -99,8 +99,8 @@ li{
     width: 280px !important;
 }
 .offcanvas-color {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 2rem;
+    line-height: 2.8rem;
     font-weight: 400;
 }
 .offcanvas-icon i{
@@ -131,12 +131,16 @@ li{
 }
 #Accordion-Main button{
     background-color: transparent !important;
+    box-shadow: none;
 }
 #Accordion-Main button:hover{
     background-color: #CFE2FF !important;
 }
 #Accordion-Main .accordion-item{
     border: none !important;
+}
+#Accordion-Main li{
+    border-bottom: 1px solid #eeeded;
 }
 .categories-carousel .caro-item-bg-1{
     background-image: url(../img/Carousel-Bg-1.png);
@@ -145,12 +149,12 @@ li{
 }
 .caro-item-bg {
     width: 100%;
-    height: 60vh;
+    height: 58rem;
 }
 .caro-item-bg h1{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 300;
-    line-height: 48px;
+    line-height: 4.8rem;
     color: #191919;
 }
 .caro-item-bg h1 span{
@@ -167,15 +171,15 @@ li{
 }
 .caro-item-bg .d-flex{
     width: 100%; 
-    height:780px ;
+    height:78rem ;
     max-height: 100%;
-    padding-left: 100px;
+    padding-left: 10rem;
 }
 .categories-carousel .caro-item-bg-2{
     background-image: url(../img/Carousel-Bg-2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-right: 100px !important;
+    padding-right: 10rem !important;
 }
 .categories-carousel .caro-item-bg-3{
     background-image: url(../img/Carousel-Bg-3.png);
@@ -191,8 +195,8 @@ li{
 }
 .categories-carousel .carousel-indicators .active{
     width:30px !important ;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
 }
 .categories-carousel .carousel-control-next, .carousel-control-prev{
     width: 3% ;
@@ -203,18 +207,44 @@ li{
     background-color: #0068e1;
     width: 2rem ;
     height: 5rem ;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
 }
 .categories-carousel .carousel-control-next:hover, .carousel-control-prev:hover{
     opacity: 1;
 }
-
-
-
-
-
-
+.section-2 .discound{
+    width: 100%;
+    height: 27.5rem;
+    padding-left:5rem ;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.section-2 .discound-bg-1{
+    background-image: url(../img/Backpack-bg-1.jpeg);
+    background-size: cover;
+}
+.section-2 .discound-bg-2{
+    background-image: url(../img/Apple-bg-1.jpg);
+    background-size: cover;
+}
+.section-2 .discound h4{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+.section-2 .discound h2{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+.section-2 .discound button{
+    color: #fff;
+    font-size: 1.6rem;
+}
+.section-2 .discound:hover{
+    transform: scale(1.1);
+}
 
     /* Resposive Device */
 
