@@ -58,7 +58,7 @@ li{
     color: #191919;
 }
 .favorites span{
-    top: 0.8ren;
+    top: 0.8rem;
     padding: 0.5rem;
 }
 .favorites p{
@@ -246,6 +246,9 @@ li{
 }
 .section-2 .discound:hover{
     transform: scale(1.1);
+}
+.section-3{
+    padding: 5rem 0 4rem 0;
 }
 .section-3 .seavice{
     padding: 0 5rem;
