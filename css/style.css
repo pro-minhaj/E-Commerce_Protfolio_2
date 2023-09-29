@@ -191,11 +191,24 @@ li{
 }
 .categories-carousel .carousel-indicators .active{
     width:30px !important ;
-    border-radius: 46%;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
-
-
-
+.categories-carousel .carousel-control-next, .carousel-control-prev{
+    width: 3% ;
+    gap: 0;
+    opacity: 0.2;
+}
+.categories-carousel .carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #0068e1;
+    width: 2rem ;
+    height: 5rem ;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.categories-carousel .carousel-control-next:hover, .carousel-control-prev:hover{
+    opacity: 1;
+}
 
 
 
