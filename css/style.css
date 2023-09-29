@@ -37,10 +37,13 @@ li{
     font-weight: 800;
     font-size: 1.3rem;
 }
+.c-header-top a p:hover {
+    color: #007bff !important;
+}
 .logo h1{
     color: #6E6E6E;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 3.4rem;
 }
 .nav-search-area input,select{
     border: none;
@@ -62,7 +65,9 @@ li{
     margin: 0;
     color: #191919;
 }
-
+.favorites a p:hover ,.favorites a i:hover{
+    color: #007bff;
+}
 .most-search{
     font-size: 1.4rem;
 }
@@ -87,18 +92,43 @@ li{
 .nav-items p{
     color: #ffb136;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.nav-area{
+    padding-top:4rem ;
+}
+.nav-area .offcanvas{
+    width: 280px !important;
+}
+.offcanvas-color {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.offcanvas-icon i{
+    font-size: 3.5rem;
+}
+.most-search a:hover{
+    color: #007bff;
+}
+.categories-list button , .categories-list a{
+    font-size: 1.5rem;
+    color: #191919;
+}
+.categories-list li:hover {
+    background-color: #CFE2FF;
+}
+.categories-list li:hover .categories-list  a{
+    color: #007bff !important;
+}
+.categories-list ul{
+    padding: 0;
+}
+.categories-list .accordion-body{
+    padding: 0;
+}
+.c-accordion ul li{
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
 
 
 
@@ -116,7 +146,12 @@ li{
 }
 
 @media (max-width:991px){
-
+    .border-md-bottom{
+        border-bottom: 1px solid #e1e1e1 ;
+    }
+    .nav-area{
+        padding-top:3rem ;
+    }
 }
 
 @media (max-width:767px){
