@@ -129,6 +129,71 @@ li{
     padding: 1rem 2rem;
     cursor: pointer;
 }
+#Accordion-Main button{
+    background-color: transparent !important;
+}
+#Accordion-Main button:hover{
+    background-color: #CFE2FF !important;
+}
+#Accordion-Main .accordion-item{
+    border: none !important;
+}
+.categories-carousel .caro-item-bg-1{
+    background-image: url(../img/Carousel-Bg-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caro-item-bg {
+    width: 100%;
+    height: 60vh;
+}
+.caro-item-bg h1{
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #191919;
+}
+.caro-item-bg h1 span{
+    font-weight: 500;
+    animation-delay: 0.1s;
+}
+.caro-item-bg p{
+    animation-delay: 0.3s;
+}
+.caro-item-bg button{
+    animation-delay: 0.7s;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.caro-item-bg .d-flex{
+    width: 100%; 
+    height:780px ;
+    max-height: 100%;
+    padding-left: 100px;
+}
+.categories-carousel .caro-item-bg-2{
+    background-image: url(../img/Carousel-Bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 100px !important;
+}
+.categories-carousel .caro-item-bg-3{
+    background-image: url(../img/Carousel-Bg-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.categories-carousel .carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #0068e1;
+    transition: .2s ease-in-out;
+}
+.categories-carousel .carousel-indicators .active{
+    width:30px !important ;
+    border-radius: 46%;
+}
+
 
 
 
