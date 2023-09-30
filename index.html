@@ -684,7 +684,7 @@
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
-                          <div class="carousel-item active caro-item-bg caro-item-bg-1">
+                          <div class="carousel-item active caro-item-bg caro-item-bg-1" data-bs-interval="2000">
                             <div class="d-flex flex-column align-items-start justify-content-center ">
                               <h1 class="mb-4"> <span>
                                 XIAOMI
@@ -693,7 +693,7 @@
                               <button class="btn btn-primary py-3 px-5 mt-4">SHOP NOW</button>
                           </div>
                           </div>
-                            <div class="carousel-item caro-item-bg caro-item-bg-2">
+                            <div class="carousel-item caro-item-bg caro-item-bg-2" data-bs-interval="2000">
                               <div class="d-flex flex-column align-items-end justify-content-center">
                                 <h1 class="mb-4"> <span>
                                   3D
@@ -702,7 +702,7 @@
                                 <button class="btn btn-primary py-3 px-5 mt-4">BUY NOW</button>
                               </div>
                             </div>
-                            <div class="carousel-item caro-item-bg caro-item-bg-3">
+                            <div class="carousel-item caro-item-bg caro-item-bg-3" data-bs-interval="2000">
                               <div class="d-flex flex-column align-items-start justify-content-center">
                                 <h1 class="mb-4"> <span>
                                   DJI
@@ -805,6 +805,107 @@
             </div>
           </div>
 
+            </div>
+          </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="section-4">
+          <div class="container">
+            <div class="text-center Top-categories pe-5">
+              <h2 class="m-0">Top Categories in Sales and Trending</h2>
+              <p class="mb-0 mt-3">Last Month upto 1500+ Products Sales From this catagory. You can choose a product from here and save money.</p>
+            </div>
+            <div class="sct-4-categories pt-5">
+                <div>
+                  <div class="row justify-content-center py-4 categories-button">
+                    <div class="col-md-2">
+                      <button class="categories-collapse-button btn active" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-id-1" aria-expanded="false" aria-controls="collapse-id-1">
+                        <img src="./img/Laptop-logo.png" alt="">
+                        <p class="mb-0">Laptops</p>
+                       </button>
+                    </div>
+                    <div class="col-md-2">
+                      <button class="categories-collapse-button btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-id-2" aria-expanded="false" aria-controls="collapse-id-2">
+                        <img src="./img/phone-logo.jpeg" alt="">
+                        <p class="mb-0">Mobiles</p>
+                       </button>
+                    </div>
+                     
+
+                  </div>
+                  
+
+                   <div class="collapse show pt-5" id="collapse-id-1">
+                   <div class="card card-body">
+
+                    <!-- Carousel -->
+
+                    <div id="carousel-catogories-caro" class="carousel slide"  data-bs-touch="true" data-bs-interval="5000" data-bs-ride="">
+
+                      <div class="carousel-indicators align-items-center gap-3">
+                        <button type="button" data-bs-target="#carousel-catogories-caro" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-catogories-caro" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-catogories-caro" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+
+                      <div class="carousel-inner py-5">
+                        <!-- Carousel items -->
+                        <div class="carousel-item active">
+
+                          <div class="row product-list">
+                            <div class="col-md-2">
+                              <a href="#">
+                                <div class="card position-relative pt-5 px-4">
+                                  <img src="./img/Laptops/Laptop-1.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-icon d-flex flex-column gap-2 position-absolute top-0 end-0 p-4 ">
+                                    <a href="#">
+                                      <i class="fa-regular fa-heart text-dark bg-white border p-3 rounded"></i>
+                                    </a>
+                                    <a href="#">
+                                      <i class="fa-solid fa-shuffle text-dark bg-white border p-3 rounded"></i>
+                                    </a>
+                                  </div>
+
+                                  <div class="card-body">
+                                    <div class="card-reviwes d-flex align-items-center gap-2 text-secondary fs-6 pt-4 pb-3 opacity-75">
+                                      <div>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      </div>
+                                      <p class="mb-0 fs-5">(0)</p>
+                                    </div>
+                                    <p class="card-text text-dark border-bottom mb-3 lh-base">Apple MacBook Pro 2019 Model (13-Inch, Intel Core i5, 1.4Ghz, 8GB, 128GB)</p>
+                                    <a href="#" class="btn text-primary fs-4 mb-3 fw-medium">$999.00</a>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./img/Carousel-Bg-2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./img/Carousel-Bg-3.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-catogories-caro" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel-catogories-caro" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                   </div>
+                 </div>
+                </div>
             </div>
           </div>
         </section>
