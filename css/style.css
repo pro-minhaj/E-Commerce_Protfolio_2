@@ -222,7 +222,10 @@ li{
 .carousel-control-next, .carousel-control-prev{
     width: 3% ;
     opacity: 0.2;
-    justify-content: start !important;
+    justify-content: start;
+}
+.carousel-control-next{
+    justify-content: end !important;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: #0068e1;
@@ -316,6 +319,14 @@ li{
 }
 .product-list .card{
     width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color:#ebebeb ;
+}
+.product-list .card img{
+    width: 100%;
+    height: 14rem;
+    max-height: 100%;
 }
 .product-list .card-icon{
     opacity: 0;
@@ -334,6 +345,10 @@ li{
 }
 .product-list .card .card-paragapes{
     transition: all 0.5s;
+    max-height: 4rem;
+    line-height: 2.1rem;
+    display: -webkit-box;
+    overflow: hidden;
 }
 .product-list .card .card-price::before{
     position: absolute;
@@ -348,6 +363,17 @@ li{
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
     z-index: 5;
+}
+.product-list .card .card-outoff-stock{
+    width: 100px;
+    position: absolute;
+    top: 8px ;
+    right: 16px;
+    transition: 0.5s;
+    display: block;
+}
+.product-list .card:hover .card-outoff-stock{
+    display: none;
 }
 .product-list .card:hover .card-price{
     margin: 0 !important;
