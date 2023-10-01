@@ -311,6 +311,9 @@ li{
     padding: 2rem 4rem;
     width:80% !important ;
 }
+.section-4 .categories-collapse-button:hover{
+    border-color: #0068e1;
+}
 .sct-4-categories .card-body{
     padding: 0 !important;
     border: none !important;
