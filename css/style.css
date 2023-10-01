@@ -306,12 +306,10 @@ li{
 .section-4 .categories-collapse-button p{
     font-size: 1.5rem;
 }
-.section-4 .sct-4-categories .categories-button .active{
-    border: 1px solid #0068e1;
-}
 .section-4 .categories-collapse-button{
     border: 1px solid #dbd7d7;
     padding: 2rem 4rem;
+    width:80% !important ;
 }
 .sct-4-categories .card-body{
     padding: 0 !important;
@@ -391,6 +389,19 @@ li{
 .product-list .card:hover .card-icon{
     opacity: 1 !important;
 }
+.categories-accordions .accordion-button::after{
+    width: 0 !important;
+    height: 0 !important;
+}
+.categories-accordions .accordion-button:not(.collapsed){
+    background-color: transparent !important;
+}
+.categories-accordions .accordion-item{
+    border: none !;
+}
+
+
+
 
 
 
@@ -400,8 +411,19 @@ li{
     /* Resposive Device */
 
 
-@media (max-width:1199px){
 
+@media (max-width:1500px){
+    .section-4 .categories-collapse-button{
+        width: 100% !important;
+    }
+}
+
+
+
+@media (max-width:1199px){
+    .section-4 .categories-collapse-button{
+        width: 80% !important;
+    }
 }
 
 @media (max-width:991px){
