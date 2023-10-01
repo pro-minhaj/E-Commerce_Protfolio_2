@@ -237,23 +237,24 @@ li{
 .categories-carousel .carousel-control-next:hover, .carousel-control-prev:hover{
     opacity: 1;
 }
-.section-2 .discound-bg-1{
-    background-image: url(../img/Backpack-bg-1.jpeg);
+.bg-discound-common {
+    width: 100%;
+    height: 100%;
     background-size: cover;
+    transition: 0.8s;
+}
+.section-2 .discound-bg-1{
+    background-image: url(../img/Bag-Pack-1.png);
 }
 .section-2 .discound-bg-2{
-    background-image: url(../img/Apple-bg-1.jpg);
-    background-size: cover;
-   
+    background-image: url(../img/Phone-bg-1.png);
 }
 .section-2 .discound h4{
     font-size: 2rem;
-    color: #ffffff;
     font-weight: 400;
 }
 .section-2 .discound h2{
     font-size: 3rem;
-    color: #ffffff;
     font-weight: 400;
 }
 .section-2 .discound button{
@@ -261,13 +262,11 @@ li{
     font-size: 1.6rem;
 }
 .section-2 .discound{
-    width: 100%;
+    width: 42rem;
     height: 27.5rem;
-    padding-left:5rem ;
     overflow: hidden;
-    transition: 0.8s;
 }
-.section-2 .discound:hover{
+.section-2 .discound:hover .bg-discound-common{
     transform: scale(1.1);
 }
 .section-3{
