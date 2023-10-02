@@ -262,7 +262,7 @@ li{
     font-size: 1.6rem;
 }
 .section-2 .discound{
-    width: 42rem;
+    width: 100%;
     height: 27.5rem;
     overflow: hidden;
 }
@@ -319,6 +319,7 @@ li{
 }
 .product-list .card{
     width: 100%;
+    height: 35rem;
     cursor: pointer;
     transition: 0.3s;
     border-color:#ebebeb ;
@@ -365,12 +366,14 @@ li{
     z-index: 5;
 }
 .product-list .card .card-outoff-stock{
-    width: 100px;
     position: absolute;
     top: 8px ;
     right: 16px;
     transition: 0.5s;
     display: block;
+}
+.product-list .card .card-outoff-stock p{
+    padding: 0 1rem;
 }
 .product-list .card:hover .card-outoff-stock{
     display: none;
@@ -401,13 +404,38 @@ li{
 .categories-accordions .accordion-item{
     border: none !important;
 }
-
-
-
-
-
-
-
+.section-5{
+    background-image: url(../img/Section-5-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-5 .comfort-chair{
+    background-image: url(../img/Chiar-bg.png);
+}
+.section-5 .top-product-img-zoom{
+    width: 100%;
+    height: 22rem;
+    overflow: hidden;
+}
+.sct-5-img-zoom{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s;
+}
+.sct-5-padding{
+    padding: 7rem 0;
+}
+.section-5 .top-product-img-zoom:hover .sct-5-img-zoom{
+    transform: scale(1.08);
+}
+.section-5 .bedroom-products{
+    background-image: url(../img/big-bg-1.png);
+    padding-left: 8rem;
+}
+.section-5 .galaxy-zoom{
+    background-image: url(../img/Mobail-bg-5.png);
+}
 
 
     /* Resposive Device */
