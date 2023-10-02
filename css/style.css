@@ -298,20 +298,21 @@ li{
     line-height: 2.4rem;
     color: #6e6e6e;
 }
-.section-4 .categories-collapse-button img{
-    width: 100%;
-    height:100%;
-}
-.section-4 .categories-collapse-button p{
-    font-size: 1.5rem;
-}
 .section-4 .categories-collapse-button{
     border: 1px solid #dbd7d7;
     padding: 2rem 4rem;
-    width:80% !important ;
+    width:90% !important ;
+    height: 18rem;
 }
 .section-4 .categories-collapse-button:hover{
     border-color: #0068e1;
+}
+.section-4 .categories-collapse-button img{
+    width: 100%;
+    height:80%;
+}
+.section-4 .categories-collapse-button p{
+    font-size: 1.5rem;
 }
 .sct-4-categories .card-body{
     padding: 0 !important;
@@ -442,17 +443,17 @@ li{
 
 
 
-@media (max-width:1500px){
-    .section-4 .categories-collapse-button{
-        width: 100% !important;
+@media (max-width:1400px){
+    .product-list .col-xl-2{
+        padding-left: 0 !important;
     }
 }
 
 
 
 @media (max-width:1199px){
-    .section-4 .categories-collapse-button{
-        width: 80% !important;
+    .product-list .col-xl-2{
+        padding-left: 1rem !important;
     }
 }
 
