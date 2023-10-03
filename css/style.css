@@ -401,6 +401,10 @@ li{
 }
 .categories-accordions .accordion-button:not(.collapsed){
     background-color: transparent !important;
+    border: 1px solid #0068e1;
+}
+#Categories-active .accordion-button:focus{
+    box-shadow: none;
 }
 .categories-accordions .accordion-item{
     border: none !important;
@@ -437,15 +441,36 @@ li{
 .section-5 .galaxy-zoom{
     background-image: url(../img/Mobail-bg-5.png);
 }
-#featured-button .active{
-    color: #0068e1 !important;
-    border-bottom: 1px solid #0068e1;
-}
 #featured-button .accordion-button::after{
     background: transparent;
 }
 #featured-button .accordion-button:not(.collapsed){
-    background: none;
+    color: #0068e1 !important;
+    background-color: transparent !important;
+    font-weight: 500 !important;
+    transition: 0.5s;
+    position: relative;
+}
+#featured-button .accordion-button:not(.collapsed)::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #0068e1;
+    bottom: 0;
+    left: 5px;
+}
+#featured-button .accordion-button:not(.collapsed)::before{
+    position: absolute;
+    content: "";
+    bottom: -7px;
+    left: 35px;
+    height: 8px;
+    width: 15px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #0068e1;
+    z-index: 1;
 }
 #featured-button .accordion-button:focus{
     box-shadow: none;
@@ -470,10 +495,22 @@ li{
 #featured-caro-button{
     gap: 9rem;
 }
-
-
-
-
+#section-7-carousel .carousel-control-prev{
+    justify-content: center !important;
+}
+#section-7-carousel .carousel-control-next{
+    justify-content: center !important;
+}
+#brand-section img{
+    width: 100%;
+    transition: 0.5s;
+}
+#brand-section img:hover{
+    transform: scale(1.1);
+}
+#brand-section .brand-item{
+    padding: 3rem;
+}
 
 
 
@@ -507,6 +544,9 @@ li{
     .product-list .col-xl-2{
         padding-left: 1rem !important;
     }
+    #brand-section .brand-item{
+        padding: 1.5rem;
+    }
 }
 
 @media (max-width:991px){
@@ -518,6 +558,9 @@ li{
     }
     html{
         font-size: 50%;
+    }
+    #brand-section .brand-item{
+        padding: 2rem 1rem;
     }
 }
 
