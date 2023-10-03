@@ -437,6 +437,58 @@ li{
 .section-5 .galaxy-zoom{
     background-image: url(../img/Mobail-bg-5.png);
 }
+#featured-button .active{
+    color: #0068e1 !important;
+    border-bottom: 1px solid #0068e1;
+}
+#featured-button .accordion-button::after{
+    background: transparent;
+}
+#featured-button .accordion-button:not(.collapsed){
+    background: none;
+}
+#featured-button .accordion-button:focus{
+    box-shadow: none;
+    border: none;
+}
+#accordion-featured .accordion-item{
+    border: none;
+}
+#featured-button .accordion-button{
+    transition: 0.5s;
+}
+#featured-caro-button .carousel-control-prev{
+    width: 10% !important;
+    position: inherit !important;
+    opacity: 1;
+}
+#featured-caro-button .carousel-control-next{
+    width: 10% !important;
+    position: inherit !important;
+    opacity: 1;
+}
+#featured-caro-button{
+    gap: 9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     /* Resposive Device */
