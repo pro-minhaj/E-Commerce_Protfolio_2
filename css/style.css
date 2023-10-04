@@ -384,7 +384,6 @@ li{
 }
 .product-list .card:hover{
     box-shadow: 2.5px 4.33px 50px 5px rgba(11,28,42,.15);
-    border: none; 
 }
 .product-list .card:hover .card-button{
     display: block;
@@ -511,13 +510,37 @@ li{
 #brand-section .brand-item{
     padding: 3rem;
 }
-
-
-
-
-
-
-
+.section-8 .carousel-control-prev{
+    position: initial;
+    width: 50% !important;
+    opacity: 0.6;
+}
+.section-8 .carousel-control-next{
+    position: initial;
+    opacity: 0.6;
+    width: 50% !important;
+}
+.section-8 .section-title{
+    position: relative;
+}
+.section-8 .section-title::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #0068e1;
+    bottom: 0;
+}
+.product-sub img{
+    width: 100%;
+}
+.product-sub h6{
+    max-height: 40px;
+    overflow: hidden;
+}
+.product-sub h6:hover{
+    color: #0068e1 !important;
+}
 
 
 
