@@ -541,9 +541,20 @@ li{
 .product-sub h6:hover{
     color: #0068e1 !important;
 }
-
-
-
+.sct-9-img{
+    width: 100%;
+    overflow: hidden;
+}
+.sct-9-img img{
+    width: 100%;
+    transition: 0.8s;
+}
+.sct-9-img img:hover{
+    transform: scale(1.08);
+}
+#accordion-all-product .accordion-item{
+    border: none !important;
+}
 
 
 
