@@ -532,7 +532,8 @@ li{
     bottom: 0;
 }
 .product-sub img{
-    width: 4rem;
+    width: 5rem;
+    height: 5rem;
 }
 .product-sub h6{
     max-height: 40px;
