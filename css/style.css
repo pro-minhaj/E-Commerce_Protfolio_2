@@ -555,7 +555,9 @@ li{
 #accordion-all-product .accordion-item{
     border: none !important;
 }
-
+#carousel-mobiles .product-list .card img{
+    padding: 0 5rem !important;
+}
 
 
 
