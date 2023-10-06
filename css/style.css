@@ -520,10 +520,10 @@ li{
     opacity: 0.6;
     width: 50% !important;
 }
-.section-8 .section-title{
+.section-title{
     position: relative;
 }
-.section-8 .section-title::before{
+.section-title::before{
     position: absolute;
     content: "";
     width: 50px;
@@ -558,9 +558,15 @@ li{
 #carousel-mobiles .product-list .card img{
     padding: 0 5rem !important;
 }
-
-
-
+.sct-12-before::before{
+    bottom: -1.8rem !important;
+}
+#section-12 .accordion-button::after{
+    margin: 0 !important;
+}
+#accordion-featured-10 .accordion-item{
+    border: none !important;
+}
 
 
     /* Resposive Device */
@@ -607,5 +613,9 @@ li{
     .categories-carousel .caro-item-bg-2{
         padding-right: 3rem !important;
         text-align: end;
+    }
+    .section-12 .hot-sellers{
+        width: 100%;
+        padding-bottom: 3rem;
     }
 }
