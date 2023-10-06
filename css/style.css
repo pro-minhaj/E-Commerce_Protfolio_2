@@ -567,6 +567,12 @@ li{
 #accordion-featured-10 .accordion-item{
     border: none !important;
 }
+.sct-12-before .accordion-button:not(.collapsed)::before{
+    left: 43px !important;
+} 
+.sct-12-before .accordion-button:not(.collapsed)::after{
+    left: 12px !important;
+}
 .footer-icons i:hover{
     color: #0068e1 !important;
 }
@@ -577,17 +583,14 @@ li{
     border-color: #0068e1 !important;
     color: #0068e1 !important;
 }
+
     /* Resposive Device */
-
-
 
 @media (max-width:1400px){
     .product-list .col-xl-2{
         padding-left: 0 !important;
     }
 }
-
-
 
 @media (max-width:1199px){
     .product-list .col-xl-2{
