@@ -550,7 +550,7 @@ li{
     transition: 0.8s;
 }
 .sct-9-img img:hover{
-    transform: scale(1.08);
+    transform: scale(1.06);
 }
 #accordion-all-product .accordion-item{
     border: none !important;
@@ -567,8 +567,16 @@ li{
 #accordion-featured-10 .accordion-item{
     border: none !important;
 }
-
-
+.footer-icons i:hover{
+    color: #0068e1 !important;
+}
+.footer-items a:hover{
+    color: #0068e1 !important;
+}
+.footer-tags button:hover{
+    border-color: #0068e1 !important;
+    color: #0068e1 !important;
+}
     /* Resposive Device */
 
 
@@ -606,7 +614,10 @@ li{
 }
 
 @media (max-width:767px){
-    
+    .copy-right{
+        justify-content: center !important;
+        gap: 2rem;
+    }
 }
 
 @media (max-width:575px){
