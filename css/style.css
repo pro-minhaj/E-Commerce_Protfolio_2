@@ -16,7 +16,7 @@ body{
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 8px;
   }
   
   /* Track */
@@ -585,6 +585,40 @@ li{
     color: #0068e1 !important;
 }
 
+/* Off Canvas */
+
+#off-canvas-accodions-button button{
+    transition: 0.5s;
+    font-size: 1.8rem;
+    padding: 1rem;
+    color:#a6a6a6 ;
+    background-color:#f2f4f5;
+}
+#off-canvas-accodions-button .accordion-button:not(.collapsed){
+    background-color: #fff !important;
+    color: #191919;
+    border-bottom: 1px solid #0068e1;
+}
+#Off-canvas-menu li a:hover{
+    color: #0068e1 !important;
+    font-weight: 400 !important;
+}
+#off-canvas-categories li p{
+    font-size: 1.8rem !important;
+}
+#off-canvas-categories button{
+    font-size: 1.8rem !important;
+    padding: 1.5rem 0 !important;
+}
+#off-canvas-categories  .c-categories-mobail{
+    padding: 1.5rem 0 !important;
+}
+#off-canvas-categories li{
+    border: none !important;
+}
+#off-canvas-categories li a{
+    font-size: 1.8rem !important;
+}
     /* Resposive Device */
 
 @media (max-width:1400px){
