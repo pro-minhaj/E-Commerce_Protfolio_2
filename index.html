@@ -14,7 +14,6 @@
     <!-- Bootstrap Icon Link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-
     <!-- CSS Link -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -64,7 +63,7 @@
         </div>
         <div class="border-md-bottom">
             <div class="container">
-                <div class="sticky-top pb-4 nav-area ">
+                <div class="pb-4 nav-area">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-6 col-lg-3 col-xl-2">
                             <div class="d-flex align-items-center gap-5">
@@ -600,7 +599,7 @@
                         
                         <div class="col-2 col-lg-2">
                             <div class="d-flex align-items-center gap-5 justify-content-end favorites">
-                                    <a class="" href="#">
+                                    <a class="" href="./pages/wishlist.html">
                                         <div class="d-none d-lg-block">
                                             <div class="d-flex align-items-center  gap-4">
                                                 <div class="position-relative">
@@ -617,7 +616,10 @@
                                         </a>
                                     </a>
                                     
-                                    <a class="d-flex align-items-center gap-4" href="#">
+                                    <!-- Offcanvs -->
+
+                                    <button class="bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="off-canvas-cart">
+                                      <div class="d-flex align-items-center gap-4">
                                         <div class="position-relative">
                                             <i class="bi bi-cart-plus"></i>
                                             <span class="position-absolute translate-middle badge rounded-circle bg-danger">
@@ -625,9 +627,19 @@
                                             </span>
                                         </div>
                                         <p class="d-xxl-block d-none">$0.00</p>
-                                    </a>
+                                    </div>
+                                    </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header bg-primary py-4">
+                                <h5 class="offcanvas-title fs-2 text-white fw-normal" id="offcanvasRightLabel">Shopping Cart</h5>
+                                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                  </div>
+                                  <div class="offcanvas-body">
+                                      <h6 class="fs-3 text-center">Your cart is empty</h6>
+                                </div>
+                              </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -662,11 +674,11 @@
                         </div>
                         <div class="col-xl-7 col-lg-8">
                             <ul class="d-flex align-items-center mb-0">
-                                <li><a class="py-4 pe-4" href="#">Shop</a></li>
-                                <li><a class="py-4 px-4" href="#">Brands</a></li>
-                                <li><a class="py-4 px-4" href="#">About Us</a></li>
-                                <li><a class="py-4 px-4" href="#">Terms Of Use</a></li>
-                                <li><a class="py-4 px-4" href="#">FAQ</a></li>
+                                <li><a class="py-4 pe-4" href="./pages/shop.html">Shop</a></li>
+                                <li><a class="py-4 px-4" href="./pages/brands.html">Brands</a></li>
+                                <li><a class="py-4 px-4" href="./pages/about-us.html">About Us</a></li>
+                                <li><a class="py-4 px-4" href="./pages/about-us.html">Terms Of Use</a></li>
+                                <li><a class="py-4 px-4" href="./pages/faq.html">FAQ</a></li>
                                 <li><a class="py-4 ps-4" href="#">BUY THEME!</a></li>
                             </ul>
                         </div>
