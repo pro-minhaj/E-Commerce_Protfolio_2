@@ -587,7 +587,13 @@ li{
     border-color: #0068e1 !important;
     color: #0068e1 !important;
 }
-
+.nav-area .offcanvas{
+    width: 30rem !important;
+}
+.nav-area .offcanvas .offcanvas-header{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
 /* Login Page */
 
 #login-page .login-form{
@@ -613,19 +619,63 @@ li{
     color: #fff !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* wishlist-page */
+#wishlist-page .wishlist-page-heading a:hover{
+    color: #0068e1 !important;
+}
+#wishlist-page-categories  .wishlist-items:hover p{
+    color: #007bff !important;
+}
+#wishlist-accordion-id .accordion-item{
+    border: none !important;
+}
+#wishlist-accordion-id .wishlist-accordion-heading{
+    background-color: #f2f4f5;
+    padding: 2.5rem 3rem;
+}
+#wishlist-page-categories .accordion-button:not(.collapsed) p{
+    color: #007bff !important;
+    font-weight: 500 !important;
+}
+#wishlist-page-categories .accordion-button:not(.collapsed){
+    position: relative;
+} 
+#wishlist-page-categories .accordion-button:not(.collapsed)::before{
+    position: absolute;
+    content: "";
+    left: -27px;
+    height: 15px;
+    width: 7px;
+    background: #0068e1;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#wishlist-page-categories .wishlist-padding{
+    padding: 0.8rem 0 0.8rem 2.8rem;
+    line-height: 3.6rem;
+}
+#wishlist-page-categories .wishlist-items{
+    gap: 2rem;
+}
+#wishlist-page-categories .wishlist-items p{
+    font-size: 16px;
+}
+.form-button{
+    padding:1.2rem 5rem !important;
+}
+.new-address51::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #0068e1;
+    left: 0;
+    bottom: 0;
+}
+#exampleFormControlInput100::placeholder{
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
 
 /* Off Canvas */
 #off-canvas-accodions-button button{
