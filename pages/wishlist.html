@@ -691,7 +691,7 @@
     </section>
 
     <main>
-        <section class="section-2-wishlist-page">
+        <section class="section-2-wishlist-page pb-5">
             <div class="container">
                 <div class="d-flex gap-3 py-5 wishlist-page-heading">
                     <a class="text-dark" href="../index.html">Home</a>
@@ -700,8 +700,8 @@
                     <span class="text-secondary">></span>
                     <p class="text-secondary">My Wishlist</p>
                 </div>
-                <div class="row">
-                    <div class="col-md-2">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-xxl-2">
                         <ul class="ps-0" id="wishlist-page-categories">
                             <li class="wishlist-padding">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wishlist-accordion-id-1" aria-expanded="false" aria-controls="wishlist-accordion-id-1">
@@ -760,16 +760,14 @@
                                 </button>
                             </li>
                             <li class="wishlist-padding">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wishlist-accordion-id-8" aria-expanded="false" aria-controls="wishlist-accordion-id-8">
-                                    <div class="d-flex align-items-center wishlist-items">
-                                        <i class="fa-solid fa-right-from-bracket text-secondary fs-3"></i>
-                                        <p class="mb-0 text-dark fw-normal">Logout</p>
-                                    </div>
-                                </button>
+                                <a href="../pages/login.html" class="d-flex align-items-center wishlist-items">
+                                    <i class="fa-solid fa-right-from-bracket text-secondary fs-3"></i>
+                                    <p class="mb-0 text-dark fw-normal">Logout</p>
+                                </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-lg-9 col-xxl-10">
                         <div class="accordion accordion-flush" id="wishlist-accordion-id">
                             <div class="accordion-item">
                               <div id="wishlist-accordion-id-1" class="accordion-collapse collapse" data-bs-parent="#wishlist-accordion-id">
@@ -954,14 +952,69 @@
                               <div class="accordion-item">
                                 <div id="wishlist-accordion-id-7" class="accordion-collapse collapse" data-bs-parent="#wishlist-accordion-id">
                                   <div class="accordion-body">
-                                      Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="accordion-item">
-                                <div id="wishlist-accordion-id-8" class="accordion-collapse collapse" data-bs-parent="#wishlist-accordion-id">
-                                  <div class="accordion-body">
-                                      Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                                    <div class="border rounded">
+                                        <div class="wishlist-accordion-heading">
+                                            <h2 class="m-0 fs-2">My Profile</h2>
+                                        </div>
+                                        <div class="py-5 ps-5">
+                                            <div class="row g-5 pb-3">
+                                                <div class="col-sm-6">
+                                                    <div class="mb-4">
+                                                        <label for="exampleFormControlInput100" class="form-label fw-medium mb-3">Email
+                                                            <span class="text-danger">*</span>
+                                                        </label>
+                                                        <input type="email" class="form-control py-3 px-4 fs-3" id="exampleFormControlInput100" value="mdminhaj3222532@gmail.com" required>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb-4">
+                                                        <label for="exampleFormControlInput100" class="form-label fw-medium mb-3">Phone
+                                                            <span class="text-danger">*</span>
+                                                        </label>
+                                                        <input type="number" class="form-control py-3 px-4 fs-3" id="exampleFormControlInput100" value="+8801770322532" required>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                            <div class="row g-5 pb-3">
+                                                <div class="col-sm-6">
+                                                    <div class="mb-4">
+                                                        <label for="exampleFormControlInput100" class="form-label fw-medium mb-3">First Name
+                                                            <span class="text-danger">*</span>
+                                                        </label>
+                                                        <input type="text" class="form-control py-3 px-4 fs-3" id="exampleFormControlInput100" value="Md" required>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb-4">
+                                                        <label for="exampleFormControlInput100" class="form-label fw-medium mb-3">Last Name
+                                                            <span class="text-danger">*</span>
+                                                        </label>
+                                                        <input type="text" class="form-control py-3 px-4 fs-3" id="exampleFormControlInput100" value="Minhaj" required>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                            <div class="row g-5 pb-3">
+                                                <div class="col-sm-6">
+                                                    <div class="mb-4">
+                                                        <label for="exampleFormControlInput100" class="form-label fw-medium mb-3">Password
+                                                            <span class="text-danger">*</span>
+                                                        </label>
+                                                        <input type="password" class="form-control py-3 px-4 fs-3" id="exampleFormControlInput100" required>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb-4">
+                                                        <label for="exampleFormControlInput100" class="form-label fw-medium mb-3">Confirm Password
+                                                            <span class="text-danger">*</span>
+                                                        </label>
+                                                        <input type="password" class="form-control py-3 px-4 fs-3" id="exampleFormControlInput100" required>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-primary form-button fs-4 fw-medium mt-4" type="submit">SAVE CHANGES</button>
+                                        </div>
+                                    </div>
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -972,7 +1025,106 @@
         </section>
     </main>
 
-
+    <footer class="pt-5">
+        <div class="container">
+          <div class="row gy-5 pb-5 pt-4 border-bottom">
+            <div class="col-md-4 col-lg-3 col-xl-3">
+              <div class="">
+                <div class="footer-heading">
+                  <h2>Contact Us</h2>
+                </div>
+                <ul class="ps-0 pt-4">
+                  <li class="d-flex align-items-center gap-3 pb-3">
+                    <i class="fa-solid fa-phone text-primary"></i>
+                    <p class="m-0 text-secondary">+88018111111</p>
+                  </li>
+                  <li class="d-flex align-items-center gap-3 pb-3">
+                    <i class="fa-regular fa-envelope text-primary"></i>
+                    <p class="m-0 text-secondary">admin@fleetcart.test</p>
+                  </li>
+                  <li class="d-flex align-items-center gap-3">
+                    <i class="fa-solid fa-map text-primary"></i>
+                    <p class="m-0 text-secondary">Dhaka, Mohammadpur</p>
+                  </li>
+                </ul>
+                <div class="footer-icons d-flex align-items-center gap-4 pt-4">
+                  <a href="https://www.facebook.com/fxminhaj1002" target="_blank"><i class="fa-brands fa-facebook text-secondary fs-4 p-2"></i></a>
+                  <a href="https://twitter.com/Parsonal32" target="_blank"><i class="fa-brands fa-twitter text-secondary fs-4 p-2"></i></a>
+                  <a href="https://www.instagram.com/fxminhaj/" target="_blank"><i class="fa-brands fa-instagram text-secondary fs-4 p-2"></i></a>
+                  <a href="https://www.youtube.com/channel/UCn0-_AYtNMfQqpF0KnCedZg" target="_blank"><i class="fa-brands fa-youtube text-secondary fs-4 p-2"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-2">
+              <div class="footer-heading">
+                <h2>My Account</h2>
+              </div>
+              <ul class="ps-0 pt-4 footer-items">
+                <li class="py-2"><a href="../pages/login.html" class="text-secondary">Dashboard</a></li>
+                <li class="py-2"><a href="../pages/login.html" class="text-secondary">My Orders</a></li>
+                <li class="py-2"><a href="../pages/login.html" class="text-secondary">My Reviews</a></li>
+                <li class="py-2"><a href="../pages/login.html" class="text-secondary">My Profile</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-2">
+              <div class="footer-heading">
+                <h2>Our Services</h2>
+              </div>
+              <ul class="ps-0 pt-4 footer-items">
+                <li class="py-2"><a href="../pages/about-us.html" class="text-secondary">About Us</a></li>
+                <li class="py-2"><a href="../pages/terms-of-use.html" class="text-secondary">Return Policy</a></li>
+                <li class="py-2"><a href="../pages/faq.html" class="text-secondary">FAQ</a></li>
+                <li class="py-2"><a href="../pages/terms-of-use.html" class="text-secondary">Privacy & Policy</a></li>
+                <li class="py-2"><a href="../pages/terms-of-use.html" class="text-secondary">Terms Of Use</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-2">
+              <div class="footer-heading">
+                <h2>Information</h2>
+              </div>
+              <ul class="ps-0 pt-4 footer-items">
+                <li class="py-2"><a href="#" class="text-secondary">New Arrivals</a></li>
+                <li class="py-2"><a href="#" class="text-secondary">Specials</a></li>
+                <li class="py-2"><a href="#" class="text-secondary">Hot Deals</a></li>
+                <li class="py-2"><a href="#" class="text-secondary">Backpacks</a></li>
+                <li class="py-2"><a href="#" class="text-secondary">Men's Fashion</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3">
+              <div class="footer-heading">
+                <h2>Tags</h2>
+              </div>
+              <div class="footer-tags d-flex align-items-center flex-wrap gap-3 pt-4">
+                <button class="border bg-transparent px-3 py-2 text-secondary rounded">Accessories</button>
+                <button class="border bg-transparent px-3 py-2 text-secondary rounded">Electronics</button>
+                <button class="border bg-transparent px-3 py-2 text-secondary rounded">Entertainment</button>
+                <button class="border bg-transparent px-3 py-2 text-secondary rounded">Fashion</button>
+                <button class="border bg-transparent px-3 py-2 text-secondary rounded">Gadgets</button>
+                <button class="border bg-transparent px-3 py-2 text-secondary rounded">Hot Deals</button>
+                <button class="border bg-transparent px-3 py-2 text-secondary rounded">Lifestyle</button>
+                <button class="border bg-transparent px-3 py-2 text-secondary rounded">Smartphone</button>
+              </div>
+            </div>
+          </div>
+          <div class="copy-right d-flex align-items-center justify-content-between flex-wrap py-4">
+            <div class="copy-right-text">
+              <p class="m-0">
+                Copyright © <a href="#" target="_blank">pro-minhaj</a>  2023. All rights reserved.
+              </p>
+            </div>
+            <div>
+              <img src="../img/Footer-card-img/r28gsyypi1oT531dU1MY1EjSskTWQbRIm7OHyTCl.png" alt="">
+            </div>
+          </div>
+  
+  
+  
+  
+  
+  
+  
+        </div>
+    </footer>
 
 
     <!-- Bootstrap JS Link -->
