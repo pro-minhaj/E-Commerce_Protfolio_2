@@ -86,8 +86,11 @@ li{
     margin: 0;
     color: #191919;
 }
-.favorites a p:hover ,.favorites a i:hover{
+.favorites a:hover p, .favorites a:hover i{
     color: #007bff;
+}
+#off-canvas-cart:hover p , #off-canvas-cart:hover i{
+    color: #007bff !important;
 }
 .most-search{
     font-size: 1.4rem;
@@ -584,6 +587,45 @@ li{
     border-color: #0068e1 !important;
     color: #0068e1 !important;
 }
+
+/* Login Page */
+
+#login-page .login-form{
+    width: 60rem;
+    max-width: 100%;
+}
+#login-page .section-2-login-page{
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+#login-page .login-hading{
+    font-size: 3rem;
+}
+#login-page .forget-pass:hover{
+    color: #0068e1 !important;
+}
+#login-page .login-pages-icon{
+    background-color: #3a559f;
+    width: 40px;
+    height: 40px;
+}
+#login-page .create-account:hover{
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Off Canvas */
 #off-canvas-accodions-button button{
