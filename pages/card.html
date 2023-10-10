@@ -21,9 +21,721 @@
     <title>FleetCart</title>
     <link rel="shortcut icon" href="../img/favicon-icon.png" type="image/x-icon">
 </head>
-<body>
-    
+<body id="card-pages">
+    <!-- Header Section -->
+    <header>
+        <div class="border-bottom">
+            <div class="container">
+                <div class="d-flex  align-items-center justify-content-lg-between justify-content-center py-2  c-header-top">
+                    <div class="d-md-none d-none d-lg-block">
+                        <h6 class="m-0">Welcome to FleetCart store</h6>
+                    </div>
+                    <ul class="d-flex align-items-center">
+                        <li class="pe-4 border-end">
+                            <a href="" class="d-flex align-items-center gap-2">
+                                <i class="bi bi-telephone"></i>
+                                <p class="mb-0">Contact</p>
+                            </a>
+                        </li>
+                        <li class="px-4 border-end">
+                            <a href="" class="d-flex align-items-center gap-2">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <p class="mb-0">Compare</p>
+                            </a>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 px-4 border-end">
+                            <i class="bi bi-translate"></i>
+                            <select class="form-select pe-5 border-0">
+                                <option selected>English</option>
+                                <option value="1">Arabic</option>
+                                <option value="2">Bangla</option>
+                            </select>
+                        </li>
+                        <li class="ps-4">
+                            <a href="../pages/login.html" class="d-flex align-items-center gap-3">
+                                <i class="bi bi-box-arrow-in-right"></i>
+                                <p class="mb-0">Login</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="border-md-bottom">
+            <div class="container">
+                <div class="nav-area pb-4">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-6 col-lg-3 col-xl-2">
+                            <div class="d-flex align-items-center gap-4">
+                                <div class="d-lg-none">
+                                    <button class="btn offcanvas-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                        <i class="bi bi-list"></i>
+                                      </button>
+                                      
+                                      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                        <div class="offcanvas-header bg-primary py-4 px-5">
+                                          <h5 class="offcanvas-title offcanvas-color text-white fs-2 fw-medium" id="offcanvasExampleLabel">Navigation</h5>
+                                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body p-0">
 
+                                            <!-- Offcanvs Content Start-->
+                                            <div class="d-flex align-items-center" id="off-canvas-accodions-button">
+                                              <button class="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#off-canvas-id-1" aria-expanded="false" aria-controls="off-canvas-id-1">
+                                                <span class="w-100">Menu</span>
+                                              </button>
+                                              <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse" data-bs-target="#off-canvas-id-2" aria-expanded="false" aria-controls="off-canvas-id-2">
+                                                <span class="w-100">Categories</span>
+                                              </button>
+                                            </div>
+                                            <div class="accordion accordion-flush" id="offcanvas-id">
+                                              <div class="accordion-item border-0">
+                                                <div id="off-canvas-id-1" class="accordion-collapse show collapse" data-bs-parent="#offcanvas-id">
+                                                  <div class="accordion-body">
+                                                    <ul class="d-flex flex-column align-items-start mb-0 ps-0" id="Off-canvas-menu">
+                                                      <li class="w-100 py-4 ps-4"><a class="text-dark fs-3" href="../pages/shop.html">Shop</a></li>
+                                                      <li class="w-100 py-4 ps-4"><a class="text-dark fs-3" href="../pages/brands.html">Brands</a></li>
+                                                      <li class="w-100 py-4 ps-4"><a class="text-dark fs-3" href="../pages/about-us.html">About Us</a></li>
+                                                      <li class="w-100 py-4 ps-4"><a class="text-dark fs-3" href="../pages/terms-of-use.html">Terms Of Use</a></li>
+                                                      <li class="w-100 py-4 ps-4"><a class="text-dark fs-3" href="../pages/faq.html">FAQ</a></li>
+                                                      <li class="w-100 py-4 ps-4"><a class="text-dark fs-3" href="#">BUY THEME!</a></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item border-0">
+                                                <div id="off-canvas-id-2" class="accordion-collapse collapse" data-bs-parent="#offcanvas-id">
+                                                  <div class="accordion-body">
+                                                    <div class="categories-list" id="off-canvas-categories">
+                                                      <ul class="mb-0 ps-0" id="Accordion-Main">
+                                                          <li>
+                                                              <div class="accordion accordion-flush c-accordion" id="accordionid-1">
+                                                                  <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                          <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                           <div class="d-flex align-items-center gap-3">
+                                                                              <i class="fa-solid fa-car-battery opacity-50"></i> 
+                                                                              <p class="mb-0">Electronics</p>
+                                                                           </div>   
+                                                                          </button>
+                                                                        </h2>
+                                                                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionid-1">
+                                                                          <div class="accordion-body">
+                          
+                                                                              <div class="accordion w-100" id="accordion-item">
+                                                                                  <!-- Accordion Mobail Item -->
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                    <h2 class="accordion-header">
+                                                                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-1" aria-expanded="true" aria-controls="collapseOne">
+                                                                                        Mobiles
+                                                                                      </button>
+                                                                                    </h2>
+                                                                                    <div id="collapse-item-1" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                      <div class="accordion-body">
+                                                                                        <ul>
+                                                                                          <li><a href="../pages/shop.html">Smartphones</a></li>
+                                                                                          <li><a href="../pages/shop.html">Android</a></li>
+                                                                                          <li><a href="../pages/shop.html">iPhone</a></li>
+                                                                                          <li><a href="../pages/shop.html">Featured</a></li>
+                                                                                          <li><a href="../pages/shop.html">Refurbished</a></li>
+                                                                                          <li><a href="../pages/shop.html">Brands</a></li>
+                                                                                        </ul>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                      <h2 class="accordion-header">
+                                                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-2" aria-expanded="true" aria-controls="collapseOne">
+                                                                                          Mobile Accessories
+                                                                                        </button>
+                                                                                      </h2>
+                                                                                      <div id="collapse-item-2" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                        <div class="accordion-body">
+                                                                                          <ul>
+                                                                                            <li><a href="../pages/shop.html">Cases & Covers</a></li>
+                                                                                            <li><a href="../pages/shop.html">Cables</a></li>
+                                                                                            <li><a href="../pages/shop.html">Chargers</a></li>
+                                                                                            <li><a href="../pages/shop.html">Power Bank</a></li>
+                                                                                            <li><a href="../pages/shop.html">Headphones</a></li>
+                                                                                            <li><a href="../pages/shop.html">Screen Protectors</a></li>
+                            
+                                                                                          </ul>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                      <h2 class="accordion-header">
+                                                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-3" aria-expanded="true" aria-controls="collapseOne">
+                                                                                          Hot Brands
+                                                                                        </button>
+                                                                                      </h2>
+                                                                                      <div id="collapse-item-3" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                        <div class="accordion-body">
+                                                                                          <ul>
+                                                                                            <li><a href="../pages/shop.html">OnePlus</a></li>
+                                                                                            <li><a href="../pages/shop.html">Apple</a></li>
+                                                                                            <li><a href="../pages/shop.html">Samsung</a></li>
+                                                                                            <li><a href="../pages/shop.html">Huawei</a></li>
+                                                                                            <li><a href="../pages/shop.html">Sony</a></li>
+                                                                                          </ul>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                  </div>
+                          
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                      <h2 class="accordion-header">
+                                                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-4" aria-expanded="true" aria-controls="collapseOne">
+                                                                                          Laptops
+                                                                                        </button>
+                                                                                      </h2>
+                                                                                      <div id="collapse-item-4" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                        <div class="accordion-body">
+                                                                                          <ul>
+                                                                                            <li><a href="../pages/shop.html">Mackbook</a></li>
+                                                                                            <li><a href="../pages/shop.html">Gaming</a></li>
+                                                                                            <li><a href="../pages/shop.html">Ultraslim</a></li>
+                                                                                            <li><a href="../pages/shop.html">Tablets</a></li>
+                                                                                            <li><a href="../pages/shop.html">All Laptops</a></li>
+                                                                                          </ul>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                  </div>
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                      <h2 class="accordion-header">
+                                                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-5" aria-expanded="true" aria-controls="collapseOne">
+                                                                                          Computer Accessories
+                                                                                        </button>
+                                                                                      </h2>
+                                                                                      <div id="collapse-item-5" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                        <div class="accordion-body">
+                                                                                          <ul>
+                                                                                            <li><a href="../pages/shop.html">Monitors</a></li>
+                                                                                            <li><a href="../pages/shop.html">Keyboard & Mouse</a></li>
+                                                                                            <li><a href="../pages/shop.html">Pendrive</a></li>
+                                                                                            <li><a href="../pages/shop.html">Speaker</a></li>
+                                                                                          </ul>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                  </div>
+                          
+                                                                                </div>
+                                                                          </div>
+                                                                        </div>
+                                                                  </div>
+                                                              </div>
+                                                          </li>
+                                                          <li>
+                                                              <div class="accordion accordion-flush c-accordion" id="accordionid-2">
+                                                                  <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                          <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                                                                           <div class="d-flex align-items-center gap-3">
+                                                                            <i class="fa-solid fa-shirt opacity-50"></i> 
+                                                                              <p class="mb-0">Men's Fashion</p>
+                                                                           </div>   
+                                                                          </button>
+                                                                        </h2>
+                                                                        <div id="collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionid-2">
+                                                                          <div class="accordion-body">
+                          
+                                                                              <div class="accordion w-100" id="accordion-item">
+                                                                                  <!-- Accordion Mobail Item -->
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                    <h2 class="accordion-header">
+                                                                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-6" aria-expanded="true" aria-controls="collapseOne">
+                                                                                        Clothing
+                                                                                      </button>
+                                                                                    </h2>
+                                                                                    <div id="collapse-item-6" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                      <div class="accordion-body">
+                                                                                        <ul>
+                                                                                          <li><a href="../pages/shop.html">Shirts</a></li>
+                                                                                          <li><a href="../pages/shop.html">All Clothing</a></li>
+                                                                                          <li><a href="../pages/shop.html">Sportswear</a></li>
+                                                                                          <li><a href="#">Belts</a></li>
+                                                                                          <li><a href="../pages/shop.html">Pants</a></li>
+                                                                                          <li><a href="../pages/shop.html">Formal Shoes</a></li>
+                          
+                                                                                        </ul>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                      <h2 class="accordion-header">
+                                                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-7" aria-expanded="true" aria-controls="collapseOne">
+                                                                                          Shoes
+                                                                                        </button>
+                                                                                      </h2>
+                                                                                      <div id="collapse-item-7" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                        <div class="accordion-body">
+                                                                                          <ul>
+                                                                                            <li><a href="../pages/shop.html">All Shoes</a></li>
+                                                                                            <li><a href="../pages/shop.html">Sneakers</a></li>
+                                                                                            <li><a href="../pages/shop.html">Boots</a></li>
+                                                                                            <li><a href="../pages/shop.html">Sandals</a></li>
+                                                                                            <li><a href="../pages/shop.html">Slippers & Flip-flops</a></li>
+                                                                                            <li><a href="../pages/shop.html">Sports Shoes</a></li>
+                                                                                          </ul>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                  </div>
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                      <h2 class="accordion-header">
+                                                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-8" aria-expanded="true" aria-controls="collapseOne">
+                                                                                          Outerwear & Jackets
+                                                                                        </button>
+                                                                                      </h2>
+                                                                                      <div id="collapse-item-8" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                        <div class="accordion-body">
+                                                                                          <ul>
+                                                                                            <li><a href="../pages/shop.html">Trench</a></li>
+                                                                                            <li><a href="../pages/shop.html">Genuine Leather</a></li>
+                                                                                            <li><a href="../pages/shop.html">Down Jackets</a></li>
+                                                                                            <li><a href="../pages/shop.html">Wool & Blends</a></li>
+                                                                                            <li><a href="../pages/shop.html">Suits & Blazer</a></li>
+                                                                                          </ul>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                  </div>
+                          
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                      <h2 class="accordion-header">
+                                                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-9" aria-expanded="true" aria-controls="collapseOne">
+                                                                                          Hot Sale
+                                                                                        </button>
+                                                                                      </h2>
+                                                                                      <div id="collapse-item-9" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                        <div class="accordion-body">
+                                                                                          <ul>
+                                                                                            <li><a href="../pages/shop.html">Glasses</a></li>
+                                                                                            <li><a href="../pages/shop.html">Jackets</a></li>
+                                                                                            <li><a href="../pages/shop.html">T-Shirts</a></li>
+                                                                                            <li><a href="../pages/shop.html">Shirts</a></li>
+                                                                                            <li><a href="../pages/shop.html">Belts</a></li>
+                                                                                          </ul>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                  </div>
+                                                                                  <div class="accordion-item c-accordion-items">
+                                                                                      <h2 class="accordion-header">
+                                                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-10" aria-expanded="true" aria-controls="collapseOne">
+                                                                                          Bottoms
+                                                                                        </button>
+                                                                                      </h2>
+                                                                                      <div id="collapse-item-10" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                        <div class="accordion-body">
+                                                                                          <ul>
+                                                                                            <li><a href="../pages/shop.html">Casual Pants</a></li>
+                                                                                            <li><a href="../pages/shop.html">Sweatpants</a></li>
+                                                                                            <li><a href="../pages/shop.html">Cargo Pants</a></li>
+                                                                                            <li><a href="../pages/shop.html">Jeans</a></li>
+                                                                                            <li><a href="#">Harem Pants</a></li>
+                                                                                          </ul>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                  </div>
+                          
+                                                                                </div>
+                                                                          </div>
+                                                                        </div>
+                                                                  </div>
+                                                              </div>
+                                                          </li>
+                                                          <li>
+                                                            <div class="accordion accordion-flush c-accordion" id="accordionid-3">
+                                                              <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                      <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethred" aria-expanded="true" aria-controls="collapsethred">
+                                                                       <div class="d-flex align-items-center gap-3">
+                                                                        <i class="fa-solid fa-laptop opacity-50"></i>
+                                                                          <p class="mb-0">Laptops</p>
+                                                                       </div>   
+                                                                      </button>
+                                                                    </h2>
+                                                                    <div id="collapsethred" class="accordion-collapse collapse" data-bs-parent="#accordionid-3">
+                                                                      <div class="accordion-body">
+                                                                        <ul>
+                                                                          <li><a href="../pages/shop.html">HP</a></li>
+                                                                          <li><a href="../pages/shop.html">Huawei</a></li>
+                                                                          <li><a href="../pages/shop.html">Asus</a></li>
+                                                                          <li><a href="../pages/shop.html">Apple</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                    </div>
+                                                              </div>
+                                                          </div>
+                                                          </li>
+                                                          <li>
+                                                              <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                                <i class="fa-solid fa-mobile opacity-50"></i>
+                                                                <p class="mb-0">Mobiles</p>
+                                                              </a>
+                                                          </li>
+                                                          <li>
+                                                            <div class="accordion accordion-flush c-accordion" id="accordionid-4">
+                                                              <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                      <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+                                                                       <div class="d-flex align-items-center gap-3">
+                                                                        <i class="fa-solid fa-microchip opacity-50"></i>
+                                                                          <p class="mb-0">Consemer Electronics</p>
+                                                                       </div>   
+                                                                      </button>
+                                                                    </h2>
+                                                                    <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionid-4">
+                                                                      <div class="accordion-body">
+                          
+                                                                          <div class="accordion w-100" id="accordion-item">
+                                                                              <!-- Accordion Mobail Item -->
+                                                                              <div class="accordion-item c-accordion-items">
+                                                                                <h2 class="accordion-header">
+                                                                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-12" aria-expanded="true" aria-controls="collapseOne">
+                                                                                    Mobiles
+                                                                                  </button>
+                                                                                </h2>
+                                                                                <div id="collapse-item-12" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                  <div class="accordion-body">
+                                                                                    <ul>
+                                                                                      <li><a href="../pages/shop.html">Smartphones</a></li>
+                                                                                      <li><a href="../pages/shop.html">Android</a></li>
+                                                                                      <li><a href="../pages/shop.html">iPhone</a></li>
+                                                                                      <li><a href="../pages/shop.html">Featured</a></li>
+                                                                                      <li><a href="../pages/shop.html">Refurbished</a></li>
+                                                                                      <li><a href="../pages/shop.html">Brands</a></li>
+                                                                                    </ul>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                          
+                                                                              <div class="accordion-item c-accordion-items">
+                                                                                  <h2 class="accordion-header">
+                                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-13" aria-expanded="true" aria-controls="collapseOne">
+                                                                                      Mobaile Accessories
+                                                                                    </button>
+                                                                                  </h2>
+                                                                                  <div id="collapse-item-13" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                    <div class="accordion-body">
+                                                                                      <ul>
+                                                                                        <li><a href="../pages/shop.html">Cases & Covers</a></li>
+                                                                                        <li><a href="../pages/shop.html">Cables</a></li>
+                                                                                        <li><a href="../pages/shop.html">Chargers</a></li>
+                                                                                        <li><a href="../pages/shop.html">Power Bank</a></li>
+                                                                                        <li><a href="../pages/shop.html">Headphones</a></li>
+                                                                                        <li><a href="../pages/shop.html">Screen Protectors</a></li>
+                                                                                      </ul>
+                                                                                    </div>
+                                                                                  </div>
+                                                                              </div>
+                          
+                                                                              <div class="accordion-item c-accordion-items">
+                                                                                  <h2 class="accordion-header">
+                                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-14" aria-expanded="true" aria-controls="collapseOne">
+                                                                                      Hot Brands
+                                                                                    </button>
+                                                                                  </h2>
+                                                                                  <div id="collapse-item-14" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                    <div class="accordion-body">
+                                                                                      <ul>
+                                                                                        <li><a href="../pages/shop.html">OnePlus</a></li>
+                                                                                        <li><a href="../pages/shop.html">Apple</a></li>
+                                                                                        <li><a href="../pages/shop.html">Samsung</a></li>
+                                                                                        <li><a href="../pages/shop.html">Huawei</a></li>
+                                                                                        <li><a href="../pages/shop.html">Sony</a></li>
+                                                                                      </ul>
+                                                                                    </div>
+                                                                                  </div>
+                                                                              </div>
+                          
+                                                                              <div class="accordion-item c-accordion-items">
+                                                                                  <h2 class="accordion-header">
+                                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-15" aria-expanded="true" aria-controls="collapseOne">
+                                                                                      Laptops
+                                                                                    </button>
+                                                                                  </h2>
+                                                                                  <div id="collapse-item-15" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                    <div class="accordion-body">
+                                                                                      <ul>
+                                                                                        <li><a href="../pages/shop.html">Mackbook</a></li>
+                                                                                        <li><a href="../pages/shop.html">Gaming</a></li>
+                                                                                        <li><a href="../pages/shop.html">Ultraslim</a></li>
+                                                                                        <li><a href="../pages/shop.html">Tablets</a></li>
+                                                                                        <li><a href="../pages/shop.html">All Laptops</a></li>
+                                                                                      </ul>
+                                                                                    </div>
+                                                                                  </div>
+                                                                              </div>
+                          
+                                                                              <div class="accordion-item c-accordion-items">
+                                                                                  <h2 class="accordion-header">
+                                                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-item-16" aria-expanded="true" aria-controls="collapseOne">
+                                                                                      Computer Accessories
+                                                                                    </button>
+                                                                                  </h2>
+                                                                                  <div id="collapse-item-16" class="accordion-collapse collapse" data-bs-parent="#accordion-item">
+                                                                                    <div class="accordion-body">
+                                                                                      <ul>
+                                                                                        <li><a href="../pages/shop.html">Monitors</a></li>
+                                                                                        <li><a href="../pages/shop.html">Keyboard & Mouse</a></li>
+                                                                                        <li><a href="../pages/shop.html">Pendrive</a></li>
+                                                                                        <li><a href="../pages/shop.html">Speaker</a></li>
+                                                                                      </ul>
+                                                                                    </div>
+                                                                                  </div>
+                                                                              </div>
+                          
+                                                                            </div>
+                                                                      </div>
+                                                                    </div>
+                                                              </div>
+                                                          </div>
+                                                          </li>
+                                                          <li>
+                                                            <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                              <i class="fa-solid fa-tv opacity-50"></i>
+                                                              <p class="mb-0">Televisions</p>
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                              <i class="fa-regular fa-clock opacity-50"></i>
+                                                              <p class="mb-0">Watches</p>
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <div class="accordion accordion-flush c-accordion" id="accordionid-5">
+                                                              <div class="accordion-item">
+                                                                    <h2 class="accordion-header">
+                                                                      <button class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                                                                       <div class="d-flex align-items-center gap-3">
+                                                                        <i class="fa-solid fa-shirt opacity-50"></i>
+                                                                          <p class="mb-0">Fashion</p>
+                                                                       </div>   
+                                                                      </button>
+                                                                    </h2>
+                                                                    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionid-5">
+                                                                      <div class="accordion-body">
+                                                                        <ul>
+                                                                          <li><a href="../pages/shop.html">Mens Fashion</a></li>
+                                                                          <li><a href="../pages/shop.html">Women's Fashion</a></li>
+                                                                        </ul>
+                                                                      </div>
+                                                                    </div>
+                                                              </div>
+                                                          </div>
+                                                          </li>
+                                                          <li>
+                                                            <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                              <i class="bi bi-backpack opacity-50"></i>
+                                                              <p class="mb-0">Backpacks</p>
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                              <i class="fa-solid fa-tablet opacity-50"></i>
+                                                              <p class="mb-0">Tablets</p>
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                              <i class="fa-solid fa-headphones opacity-50"></i>
+                                                              <p class="mb-0">Headphones</p>
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                              <i class="fa-solid fa-fire-flame-simple opacity-50"></i>
+                                                              <p class="mb-0">Hot Sale</p>
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                              <i class="fa-solid fa-shoe-prints opacity-50"></i>
+                                                              <p class="mb-0">Shoes</p>
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <a class="d-flex align-items-center gap-3 px-4 py-3 c-categories-mobail" href="../pages/shop.html">
+                                                              <i class="fa-regular fa-square-plus opacity-50"></i>
+                                                              <p class="mb-0">All Categories</p>
+                                                            </a>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            
+                                              <!-- Offcanvs Content End -->
+                                        </div>
+                                      </div>
+        
+                                  </div>
+    
+                                <div>
+                                    <a class="d-flex align-items-center gap-3 img-fluid logo" href="../index.html">
+                                        <img class="" src="../img/Logo.png" alt="">
+                                        <h1 class="mb-0">FleetCart</h1>
+                                    </a>
+                                </div>
+                            </div>
+                             
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-xxl-8 d-none d-lg-block">
+                            <div class="d-flex align-items-center border justify-content-between p-2 nav-search-area">
+                                <input class="ps-5 w-75" type="text" placeholder="Search for products">
+                                <div class="d-flex gap-5">
+                                    <select class="pe-5 ps-3">
+                                            <option selected>All Categories</option>
+                                            <option value="1">Men's Fashion</option>
+                                            <option value="2">Shirts</option>
+                                            <option value="3">Jackets</option>
+                                            <option value="4">Electronics</option>
+                                    </select>
+                                    <button class="btn btn-primary px-4 py-3"><i class="bi bi-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-2 col-lg-2">
+                            <div class="d-flex align-items-center gap-5 justify-content-end favorites">
+                                    <a href="../pages/wishlist.html">
+                                        <div class="d-none d-lg-block">
+                                            <div class="d-flex align-items-center  gap-4">
+                                                <div class="position-relative">
+                                                    <i class="bi bi-heart "></i>
+                                                    <span class="position-absolute translate-middle badge rounded-circle bg-danger">
+                                                    0
+                                                    </span>
+                                                </div>
+                                                <p class="d-none d-xxl-block">Favorites</p>
+                                            </div>
+                                        </div>
+                                        <a class="d-block d-lg-none" href="#">
+                                            <i class="bi bi-search"></i>
+                                        </a>
+                                    </a>
+                                    
+                                    <!-- Offcanvs -->
+
+                                    <button class="bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="off-canvas-cart">
+                                      <div class="d-flex align-items-center gap-4">
+                                        <div class="position-relative">
+                                            <i class="bi bi-cart-plus"></i>
+                                            <span class="position-absolute translate-middle badge rounded-circle bg-danger">
+                                            0
+                                            </span>
+                                        </div>
+                                        <p class="d-xxl-block d-none">$0.00</p>
+                                    </div>
+                                    </button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header bg-primary py-4">
+                                <h5 class="offcanvas-title fs-2 text-white fw-normal" id="offcanvasRightLabel">Shopping Cart</h5>
+                                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                  </div>
+                                  <div class="offcanvas-body">
+                                      <h6 class="fs-3 text-center">Your cart is empty</h6>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block most-search pb-5">
+                    <ul class="d-flex align-items-center justify-content-center mb-0">
+                        <label class="text-primary">Most searched:</label>
+                        <li class="px-4 border-end"><a href="#">Watch</a></li>
+                        <li class="px-4 border-end"><a href="#">Apple</a></li>
+                        <li class="px-4 border-end"><a href="#">Bag</a></li>
+                        <li class="px-4 border-end"><a href="#">Ma</a></li>
+                        <li class="ps-4"><a href="#">Sa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+        
+    </header>
+
+    <!-- Nav Section -->
+    <section class="section-1 d-none d-lg-block nav-section">
+        <div class="container">
+            <div class="border rounded p-2 nav-items">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-3">
+                        <div class="d-flex align-items-center justify-content-between bg-primary py-4 px-5 nav-categories">
+                            <h2 class="text-white mb-0">ALL CATEGORIES</h2>
+                            <i class="bi bi-list text-white"></i>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-8">
+                        <ul class="d-flex align-items-center mb-0">
+                            <li><a class="py-4 pe-4" href="../pages/shop.html">Shop</a></li>
+                            <li><a class="py-4 px-4" href="../pages/brands.html">Brands</a></li>
+                            <li><a class="py-4 px-4" href="../pages/about-us.html">About Us</a></li>
+                            <li><a class="py-4 px-4" href="../pages/about-us.html">Terms Of Use</a></li>
+                            <li><a class="py-4 px-4" href="../pages/faq.html">FAQ</a></li>
+                            <li><a class="py-4 ps-4" href="#">BUY THEME!</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3 d-none d-xl-block">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <p class="mb-0 pe-5">Free shopping over $100+<p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="section-1-card-page">
+            <div class="container">
+                <div class="d-flex gap-3 py-5 wishlist-page-heading">
+                    <a class="text-dark" href="../index.html">Home</a>
+                    <span class="text-secondary">></span>
+                    <a class="text-dark" href="../pages/shop.html">Electronics</a>
+                    <span class="text-secondary">></span>
+                    <a class="text-dark" href="../pages/shop.html">Laptops</a>
+                    <span class="text-secondary">></span>
+                    <a class="text-dark" href="../pages/shop.html">Ultraslim</a>
+                    <span class="text-secondary">></span>
+                    <a class="text-dark" href="../pages/shop.html">All Laptops</a>
+                    <span class="text-secondary">></span>
+                    <p class="text-secondary">HP Spectre x360 2-in-1 15.6" 4K Ultra HD Touch-Screen Laptop, Intel i7 8th Gen</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <div id="carousel-card-pages" class="carousel carousel-dark slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-card-pages" data-bs-slide="prev">
+                                <span class="material-symbols-outlined">
+                                    expand_less
+                                    </span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-card-pages" data-bs-slide="next">
+                                <span class="material-symbols-outlined">
+                                    expand_more
+                                    </span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 

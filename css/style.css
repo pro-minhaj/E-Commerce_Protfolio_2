@@ -620,7 +620,7 @@ li{
 }
 
 /* wishlist-page */
-#wishlist-page .wishlist-page-heading a:hover{
+.wishlist-page-heading a:hover{
     color: #0068e1 !important;
 }
 #wishlist-page-categories  .wishlist-items:hover p{
@@ -710,6 +710,60 @@ li{
 #off-canvas-categories li a{
     font-size: 1.8rem !important;
 }
+
+    /* Shop Page */
+#shop-pages #Accordion-Main li{
+    border: none !important;
+}
+#shop-pages .accordion-button{
+    position: relative;
+}
+#shop-pages .accordion-button::after{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -20px;
+    opacity: 0.8 !important;
+}
+#shop-pages .accordion-button:not(.collapsed)::after{
+    transform: rotate(0deg) !important;
+}
+#shop-pages .section-2-shop-page li{
+    opacity: 0.8;
+}
+#latest-products img{
+    width: 100% !important;
+    padding: 0 !important;
+}
+#shop-pages .categories-list li{
+    padding-left: 2rem;
+}
+#shop-pages .categories-list li:hover{
+    background: transparent !important;
+}
+#shop-pages .categories-hover:hover a{
+    background-color: #CFE2FF !important;
+}
+#shop-pages .accordion-item li:hover{
+    background-color:#CFE2FF !important ;
+}
+ /* Card Pages */
+
+#carousel-card-pages button{
+    width: 15% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* Resposive Device */
 
 @media (max-width:1400px){
