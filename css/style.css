@@ -210,34 +210,34 @@ li{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.carousel-indicators button{
+#index-page .carousel-indicators button{
     width: 10px !important;
     height: 10px !important;
     border-radius: 50%;
     background-color: #0068e1 !important;
     transition: .2s ease-in-out;
 }
-.carousel-indicators .active{
+#index-page .carousel-indicators .active{
     width:30px !important ;
     border-top-left-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
 }
-.carousel-control-next, .carousel-control-prev{
+#index-page .carousel-control-next , #index-page .carousel-control-prev{
     width: 3% ;
     opacity: 0.2;
     justify-content: start;
 }
-.carousel-control-next{
+#index-page .carousel-control-next{
     justify-content: end !important;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
+#index-page .carousel-control-next-icon , #index-page .carousel-control-prev-icon{
     background-color: #0068e1;
     width: 2rem ;
     height: 5rem ;
     border-top-right-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
 }
-.categories-carousel .carousel-control-next:hover, .carousel-control-prev:hover{
+#index-page .carousel-control-next:hover , #index-page .carousel-control-prev:hover{
     opacity: 1;
 }
 .bg-discound-common {
@@ -672,6 +672,7 @@ li{
     left: 0;
     bottom: 0;
 }
+
 #exampleFormControlInput100::placeholder{
     font-size: 1.4rem;
     opacity: 0.8;
@@ -744,8 +745,36 @@ li{
     background-color: #CFE2FF !important;
 }
 #shop-pages .accordion-item li:hover{
-    background-color:#CFE2FF !important ;
+    background-color:#CFE2FF !important;
 }
+#shop-pages .accordion-button:not(.collapsed){
+    opacity: 1 !important;
+    color: #0068e1 !important;
+}
+#shop-pages-carousel-id .carousel-indicators [data-bs-target]{
+    width: 0 !important;
+    height: 0 !important;
+    text-indent: 0 !important;
+}
+#shop-page-carousel-indicators .carousel-control-prev , #shop-page-carousel-indicators .carousel-control-next{
+    position: inherit !important;
+    display: inline !important;
+    width: 2% !important;
+    margin-top: 1rem !important;
+}
+#shop-page-carousel-indicators .carousel-indicators{
+    position: inherit !important;
+}
+#shop-page-carousel-indicators .carousel-control-prev-icon , #shop-page-carousel-indicators .carousel-control-next-icon{
+    width: 15px !important;
+}
+.shop-page-active .active{
+    color: #0068e1 !important;
+}
+#shop-page-card .col-xl-2{
+    width: 19.666667% !important;
+}
+
  /* Card Pages */
 
 #carousel-card-pages button{
@@ -779,6 +808,9 @@ li{
     #brand-section .brand-item{
         padding: 1.5rem;
     }
+    #shop-page-card .col-xl-2{
+        width:25%  !important;
+    }
 }
 
 @media (max-width:991px){
@@ -794,12 +826,18 @@ li{
     #brand-section .brand-item{
         padding: 2rem 1rem;
     }
+    #shop-page-card .col-xl-2{
+        width:33.33333333%  !important;
+    }
 }
 
 @media (max-width:767px){
     .copy-right{
         justify-content: center !important;
         gap: 2rem;
+    }
+    #shop-page-card .col-xl-2{
+        width:50%  !important;
     }
 }
 
