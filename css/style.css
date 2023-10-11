@@ -751,7 +751,7 @@ li{
     opacity: 1 !important;
     color: #0068e1 !important;
 }
-#shop-pages-carousel-id .carousel-indicators [data-bs-target]{
+#shop-pages-carousel-id .carousel-indicators [data-bs-target] , #shop-pages-carousel-id-1 .carousel-indicators [data-bs-target]{
     width: 0 !important;
     height: 0 !important;
     text-indent: 0 !important;
@@ -760,7 +760,7 @@ li{
     position: inherit !important;
     display: inline !important;
     width: 2% !important;
-    margin-top: 1rem !important;
+    margin-top: 10px !important;
 }
 #shop-page-carousel-indicators .carousel-indicators{
     position: inherit !important;
@@ -774,7 +774,27 @@ li{
 #shop-page-card .col-xl-2{
     width: 19.666667% !important;
 }
-
+#shop-pages .offcanvas.offcanvas-start{
+    width: 300px !important;
+}
+#shop-pages .shop-card-img{
+    width: 90%;
+    height: 20rem;
+}
+#shop-pages .shop-add-to-cart:hover{
+    color: #fff !important;
+}
+#shop-pages .shop-wishlist-button:hover{
+    color: #0068e1 !important;
+}
+#shop-sub-card{
+    transition: 0.3s;
+}
+#shop-sub-card:hover{
+    border-color: #fff !important;
+    box-shadow: 2.5px 4.33px 50px 5px rgba(11,28,42,.15);
+    z-index: 5;
+}
  /* Card Pages */
 
 #carousel-card-pages button{
@@ -802,9 +822,6 @@ li{
 }
 
 @media (max-width:1199px){
-    .product-list .col-xl-2{
-        padding-left: 1rem !important;
-    }
     #brand-section .brand-item{
         padding: 1.5rem;
     }
@@ -814,6 +831,9 @@ li{
 }
 
 @media (max-width:991px){
+    .product-list .col-xl-2{
+        padding-left: 1rem !important;
+    }
     .border-md-bottom{
         border-bottom: 1px solid #e1e1e1 ;
     }
