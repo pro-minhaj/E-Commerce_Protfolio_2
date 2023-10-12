@@ -9,6 +9,9 @@ body{
     color: #191919;
     font-size: 1.5rem;
 }
+button{
+    cursor: pointer;
+}
 .container{
     max-width: 100%;
     padding-left: 4%;
@@ -385,8 +388,23 @@ li{
 .product-list .card:hover .card-price{
     margin: 0 !important;
 }
-.product-list .card:hover{
+.product-list .card{
+    position: relative;
+    z-index: 1;
+}
+.product-list .card::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     box-shadow: 2.5px 4.33px 50px 5px rgba(11,28,42,.15);
+    opacity: 0;
+    z-index: 5;
+}
+.product-list .card:hover::before{
+    opacity: 1;
 }
 .product-list .card:hover .card-button{
     display: block;
@@ -788,12 +806,25 @@ li{
     color: #0068e1 !important;
 }
 #shop-sub-card{
-    transition: 0.3s;
+    position: relative;
+}
+#shop-sub-card::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    z-index: 5;
+    box-shadow:2.5px 4.33px 50px 5px rgba(11,28,42,.15);
+    opacity: 0;
+}
+#shop-sub-card:hover::before{
+    opacity: 1;
 }
 #shop-sub-card:hover{
     border-color: #fff !important;
-    box-shadow: 2.5px 4.33px 50px 5px rgba(11,28,42,.15);
-    z-index: 5;
 }
  /* Card Pages */
 
