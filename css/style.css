@@ -275,18 +275,18 @@ li{
 .section-3{
     padding: 5rem 0 4rem 0;
 }
-.section-3 .seavice{
+.seavice{
     padding: 0 5rem;
 }
-.section-3 .seavice i{
+.seavice i{
     font-size: 3rem;
     color: #0068e1;
 }
-.section-3 .seavice h6{
+.seavice h6{
     font-size: 1.5rem;
     line-height: 1.8rem;
 }
-.section-3 .seavice p{
+.seavice p{
     font-size:1.4rem ;
     line-height: 2.2rem;
     color: #6e6e6e;
@@ -784,7 +784,7 @@ li{
 #shop-pages .shop-add-to-cart:hover{
     color: #fff !important;
 }
-#shop-pages .shop-wishlist-button:hover{
+.shop-wishlist-button:hover{
     color: #0068e1 !important;
 }
 #shop-sub-card{
@@ -797,20 +797,37 @@ li{
 }
  /* Card Pages */
 
-#carousel-card-pages button{
-    width: 15% !important;
+#card-pages .accordion-item{
+    border: none !important;
 }
-
-
-
-
-
-
-
-
-
-
-
+#card-pages .accordion-button:not(.collapsed){
+    border: 1px solid #0068e1 !important;
+}
+#card-pages .accordion-button{
+    border: 1px solid #ebebeb !important;
+    padding: 1rem 0.5rem;
+}
+#card-pages .accordion-body{
+    padding: 9rem 5rem;
+    cursor: crosshair;
+    display: flex;
+    justify-content:center ;
+}
+#card-pages .accordion-body i:hover{
+    color: #0068e1 !important;
+}
+#card-pages .quantity-option{
+    width: 10rem;
+    outline: none;
+}
+#card-pages .card-page-icons i{
+    padding: 1rem;
+    transition: 0.3s;
+    font-size: 1.7rem;
+}
+#card-pages .card-page-icons a:hover{
+    color: #0068e1 !important;
+}
 
 
     /* Resposive Device */
