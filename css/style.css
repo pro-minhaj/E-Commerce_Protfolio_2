@@ -810,7 +810,7 @@ li{
 
     /* About Us Page */
 
-#aboutus-page .about-us-page-ul li{
+.about-us-page-ul li{
     list-style:inside;
     padding:0.5rem 0 ;
 }
