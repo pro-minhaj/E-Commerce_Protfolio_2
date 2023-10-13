@@ -794,6 +794,24 @@ li{
     border-color: #fff !important;
     box-shadow:2.5px 4.33px 50px 5px rgba(11,28,42,.15);
 }
+
+    /* Brand Page */
+
+#brands-page .brand-img{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    transition: .15s ease-in-out;
+    cursor: pointer;
+}
+#brands-page .brand-img:hover{
+    border-color: rgba(20, 116, 226, 0.5) !important;
+    opacity: 0.75;
+}
+
+
+
+
+
  /* Card Pages */
 
 #card-pages .accordion-item{
