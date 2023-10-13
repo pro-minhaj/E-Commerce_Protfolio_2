@@ -808,6 +808,12 @@ li{
     opacity: 0.75;
 }
 
+    /* About Us Page */
+
+#aboutus-page .about-us-page-ul li{
+    list-style:inside;
+    padding:0.5rem 0 ;
+}
 
 
 
