@@ -873,7 +873,12 @@ li{
     color: orange !important;
     opacity: 1 !important;
 }
-
+#card-pages #featured-caro-button button{
+    width: 4% !important;
+}
+#card-pages #card-page-product-id .col-xl-2{
+    width: 20% !important;
+}
 
     /* Resposive Device */
 
@@ -889,6 +894,9 @@ li{
     }
     #shop-page-card .col-xl-2{
         width:25%  !important;
+    }
+    #card-pages #card-page-product-id .col-xl-2{
+        width: 25% !important;
     }
 }
 
@@ -911,12 +919,9 @@ li{
     #shop-page-card .col-xl-2{
         width:33.33333333%  !important;
     }
-    /* #card-pages #description-button .accordion-button:not(.collapsed)::before{
-        bottom: -9px;
+    #card-pages #card-page-product-id .col-xl-2{
+        width:25%  !important;
     }
-    #card-pages #description-button .accordion-button:not(.collapsed)::after{
-        bottom: -17px;
-    } */
 }
 
 @media (max-width:767px){
@@ -925,6 +930,9 @@ li{
         gap: 2rem;
     }
     #shop-page-card .col-xl-2{
+        width:50%  !important;
+    }
+    #card-pages #card-page-product-id .col-xl-2{
         width:50%  !important;
     }
 }
