@@ -747,13 +747,6 @@ li{
 #shop-pages .categories-hover:hover a{
     background-color: #CFE2FF !important;
 }
-#shop-pages .accordion-item li:hover{
-    background-color:#CFE2FF !important;
-}
-#shop-pages .accordion-button:not(.collapsed){
-    opacity: 1 !important;
-    color: #0068e1 !important;
-}
 #shop-pages-carousel-id .carousel-indicators [data-bs-target] , #shop-pages-carousel-id-1 .carousel-indicators [data-bs-target]{
     width: 0 !important;
     height: 0 !important;
@@ -851,7 +844,10 @@ li{
 #card-pages .card-page-icons a:hover{
     color: #0068e1 !important;
 }
-#card-pages .carousel-control-next , .carousel-control-prev {
+#card-pages .carousel-control-next {
+    position: inherit !important;
+}
+#card-pages .carousel-control-prev{
     position: inherit !important;
 }
 #card-pages #description-button button{
@@ -917,7 +913,7 @@ li{
         padding: 1.5rem;
     }
     #shop-page-card .col-xl-2{
-        width:25%  !important;
+        width:33%  !important;
     }
     #card-pages #card-page-product-id .col-xl-2{
         width: 25% !important;
