@@ -330,7 +330,7 @@ li{
     cursor: pointer;
     transition: 0.3s;
     border-color: #ebebeb;
-    height: 35rem;
+    height: 36rem;
     min-height: 100%;
 }
 .product-list .card img {
